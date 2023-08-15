@@ -27,6 +27,7 @@ module.exports = {
       database: process.env.POSTGRES_DB,
       user: process.env.POSTGRES_USER,
       password: process.env.POSTGRES_PASSWORD,
+      port: Number(process.env.POSTGRES_PORT),
     },
     pool: {
       min: 2,
